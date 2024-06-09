@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+      * {
+        font-family: roboto;
+      }
+      p {
+        padding: 0;
+        margin: 0;
+        color: #585858;
+      }
+    </style>
+  </head>
+  <body style="display: flex; justify-content: center; align-items: center">
+    <table
+      style="
+        width: 794px;
+        /* border: 1px solid #ddd; */
+        padding-bottom: 30px;
+        height: 1123px;
+      "
+    >
+      <tbody>
+        <tr
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 40px;
+            border-bottom: 1px solid #0b9ccb;
+            padding-bottom: 20px;
+          "
+        >
+          <td>
+            <img
+              src="https://logos-world.net/wp-content/uploads/2020/05/Huawei-Logo.jpg"
+              alt=""
+              style="width: 100px"
+            />
+          </td>
+          <td style="font-size: 40px; font-weight: 600; color: #0b9ccb">
+            Invoice
+          </td>
+        </tr>
+
+        <tr
+          style="
+            display: grid;
+            justify-content: space-between;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 20px 40px;
+            gap: 20px;
+          "
+        >
+          <td style="display: flex; flex-direction: column; gap: 8px">
+            <b style="font-size: 20px">From</b>
+            <p style="font-size: 14px">Toyhedul Islam Achem</p>
+            <p style="font-size: 14px">Web Developer</p>
+            <p style="font-size: 14px">+8801754774203</p>
+            <p style="font-size: 14px">
+              House #13, Road #07, Block #F, Banani, Dhaka-1213 Bangladesh.
+            </p>
+          </td>
+
+          <td style="display: flex; flex-direction: column; gap: 8px">
+            <b style="font-size: 20px">Invoice Info</b>
+            <span style="display: flex; align-items: center">
+              <b style="font-size: 14px; color: #494949">Invoice ID : </b>
+              <p style="font-size: 14px; margin-left: 5px">Hello</p>
+            </span>
+            <span style="display: flex; align-items: center">
+              <b style="font-size: 14px; color: #494949">Issued Date : </b>
+              <p style="font-size: 14px; margin-left: 5px">Hello</p>
+            </span>
+            <span style="display: flex; align-items: center">
+              <b style="font-size: 14px; color: #494949">Due Date : </b>
+              <p style="font-size: 14px; margin-left: 5px">Hello</p>
+            </span>
+            <span style="display: flex; align-items: center">
+              <b style="font-size: 14px; color: #494949">Currency : </b>
+              <p style="font-size: 14px; margin-left: 5px">Hello</p>
+            </span>
+            <span style="display: flex; align-items: center">
+              <b style="font-size: 14px; color: #494949">Payment Method : </b>
+              <p style="font-size: 14px; margin-left: 5px">Hello</p>
+            </span>
+          </td>
+          <td style="display: flex; flex-direction: column; gap: 8px">
+            <b style="font-size: 20px">Bill To</b>
+            <p style="font-size: 14px">Toyhedul Islam Achem</p>
+            <p style="font-size: 14px">Web Developer</p>
+            <p style="font-size: 14px">+8801754774203</p>
+            <p style="font-size: 14px">
+              House #13, Road #07, Block #F, Banani, Dhaka-1213 Bangladesh.
+            </p>
+          </td>
+        </tr>
+
+        <tr
+          style="
+            background-color: #0b9ccb;
+            display: flex;
+            padding: 20px 20px;
+            margin: 20px 40px 0 40px;
+            color: white;
+            gap: 15px;
+          "
+        >
+          <td style="width: 10%; font-size: 16px; font-weight: 600">#</td>
+          <td style="width: 60%; font-size: 16px; font-weight: 600">Item</td>
+          <td style="width: 10%; font-size: 16px; font-weight: 600">QTY</td>
+          <td style="width: 10%; font-size: 16px; font-weight: 600">Price</td>
+        </tr>
+
+        <tr
+          style="
+            background-color: #0b9bcb0a;
+            display: flex;
+            padding: 20px 20px;
+            margin: 0 40px;
+            color: #000;
+            gap: 15px;
+          "
+        >
+          <td style="width: 10%; font-size: 14px">1</td>
+          <td style="width: 60%; font-size: 14px">
+            Lorem, ipsum. Lorem, ipsum dolor.
+          </td>
+          <td style="width: 10%; font-size: 14px">2</td>
+          <td style="width: 10%; font-size: 14px">$500</td>
+        </tr>
+
+        <tr
+          style="
+            background-color: #0b9bcb18;
+            display: flex;
+            padding: 20px 20px;
+            margin: 0 40px;
+            color: #000;
+            gap: 15px;
+          "
+        >
+          <td style="width: 10%; font-size: 14px">2</td>
+          <td style="width: 60%; font-size: 14px">Lorem ipsum dolor sit.</td>
+          <td style="width: 10%; font-size: 14px">1</td>
+          <td style="width: 10%; font-size: 14px">$142</td>
+        </tr>
+
+        <tr
+          style="
+            background-color: #0b9bcb0a;
+            display: flex;
+            padding: 20px 20px;
+            margin: 0 40px;
+            color: #000;
+            gap: 15px;
+          "
+        >
+          <td style="width: 10%; font-size: 14px"></td>
+          <td style="width: 60%; font-size: 14px"></td>
+          <td style="width: 10%; font-size: 14px"><b>Total</b></td>
+          <td style="width: 10%; font-size: 14px"><b>$642</b></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
